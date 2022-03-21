@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Clock1 from './components/PresentationalComponent/Function';
+import Clock2 from './components/PresentationalComponent/Class';
+import Clock3 from './components/StatefulComponent/StatefulClass';
+import Clock4 from './components/StatefulComponent/StatefulFunction';
+import Clock5 from './components2/PresentationalComponent/Function';
+import Clock6 from './components2/PresentationalComponent/Class';
+import Clock7 from './components2/StatefulComponent/Class';
+import Clock8 from './components2/StatefulComponent/Function';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Clock1 locale="bn-BD"></Clock1>
+      <Clock2 locale="bn-BD"></Clock2>
+      <Clock3 locale="bn-BD"></Clock3>
+      <Clock4 locale="bn-BD"></Clock4>
+      <Clock5 locale="en-US"></Clock5>
+      <Clock6 locale="en-US"></Clock6>
+      <Clock7 locale="en-US"></Clock7>
+      <Clock8 locale="en-US"></Clock8>
     </div>
   );
 }
