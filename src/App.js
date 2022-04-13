@@ -8,6 +8,7 @@ import Clock5 from './components2/PresentationalComponent/Function';
 import Clock6 from './components2/PresentationalComponent/Class';
 import Clock7 from './components2/StatefulComponent/Class';
 import Clock8 from './components2/StatefulComponent/Function';
+import Clock10 from './components2/StatefulComponent/storeValues';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <Clock6 locale="en-US"></Clock6>
       <Clock7 locale="en-US"></Clock7>
       <Clock8 locale="en-US"></Clock8>
+      <Clock10 locale="en-US"></Clock10>
     </div>
   );
 }
